@@ -1,0 +1,7 @@
+Exploratory Data Analysis (EDA) is a crucial step in the data analysis process. The first step in performing EDA is to import necessary libraries, such as pandas and matplotlib. Then, the dataset is loaded into a pandas DataFrame to allow for efficient manipulation of the data. The structure of the data is analyzed to gain insight into the number of rows, columns, and data types present in the data. The data is described using various statistical methods to obtain the central tendencies, dispersions, and distributions of the features. In order to ensure the validity of the results, it is important to check for duplicates in the data set and to drop any duplicates that may be present. After checking for missing values and handling them appropriately, the unique data in the data set is visualized using various graphical methods such as histograms and scatter plots.
+
+For modeling, the Linear Regression class from the sklearn.linear_model library is imported. In this particular scenario, age is used as the X values and the charges are used as the Y values. A scatter plot of these values is generated to visualize the relationship between the two. The model is trained using the training data and is used to make predictions on the test data. The performance of the model is evaluated using the mean absolute error (MAE), root mean squared error (RMSE), and mean squared error (MSE). These evaluation metrics provide an insight into the accuracy of the model's predictions.
+
+
+
+
